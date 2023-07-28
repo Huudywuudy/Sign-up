@@ -1,0 +1,40 @@
+.gradient-backgorund {
+  background: rgb(58, 49, 224);
+  background: linear-gradient(
+    720deg,
+    rgb(89, 80, 255) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-size: 140% 100%;
+  
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+header {
+  background: rgb(58, 49, 224);
+  background: linear-gradient(
+    268deg,
+    rgba(0, 212, 255, 1) 50%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 9%
+  );
+  background-size: 140% 100%;
+  animation: gradiant-animation 5s ease infinite;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #fff !important;
+  margin: 1em 0;
+  padding: 0;
+}
